@@ -5,10 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix",
+    "backend": "json-server --watch db.json -p5000"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "json-server": "^0.16.3",
     "vue": "^3.0.0"
   },
   "devDependencies": {
